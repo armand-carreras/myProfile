@@ -1,0 +1,58 @@
+html{
+  height: 100%;
+  top:0;
+}
+body{
+  position: static;
+  top:0;
+  left:0;
+  height: 100%;
+  background-image:linear-gradient(45deg, rgb(82, 87, 87), #161616);
+}
+.material-icons.md-48 {
+  font-size: 48px;  
+  color: rgba(255, 255, 255, 1); 
+}
+.material-icons:hover {
+    color: hsla(125, 100%, 50%, 0.856); 
+}
+nav {
+    height: 100%;
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /*padding-top: 16px;*/
+  }
+  
+  nav a {
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  nav a.info{
+    
+  }
+  nav a:hover {
+    color: #f1f1f1;
+  }
+  
+  main {
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  /* fallback */
